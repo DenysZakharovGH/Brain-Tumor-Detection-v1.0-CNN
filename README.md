@@ -1,7 +1,5 @@
 # 🧠 Brain Tumor Detection using MRI Images
 
-![Project Banner](https://cdn.pixabay.com/photo/2017/02/23/13/05/brain-2099151_1280.jpg)
-
 > 🚀 A deep learning project that detects **brain tumors from MRI scans** with **99% accuracy**.  
 > Built with passion, powered by data, and trained on the [Kaggle Brain MRI dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
 
@@ -57,12 +55,15 @@ This CNN strikes a balance between **accuracy and efficiency**, achieving **99% 
 
 ---
 
+![Training Graph](docs/confusion_matrix.png)
+
+
 ### 🖼️ Sample Predictions
 
 | Input MRI | Model Prediction |
 |:-----------:|:----------------:|
-| ![tumor](https://raw.githubusercontent.com/ultralytics/yolov5/master/data/images/zidane.jpg) | 🧠 Tumor Detected |
-| ![normal](https://upload.wikimedia.org/wikipedia/commons/0/05/MRI_head_normal.jpg) | ✅ No Tumor |
+| ![tumor](docs/Y17.jpg) | 🧠 Tumor Detected |
+| ![normal](docs/N17.jpg) | ✅ No Tumor |
 
 *(Images above are placeholders – replace them with your own sample outputs.)*
 
@@ -72,7 +73,7 @@ This CNN strikes a balance between **accuracy and efficiency**, achieving **99% 
 
 Below is an example of the model’s accuracy and loss progression during training:
 
-![Training Graph](https://user-images.githubusercontent.com/placeholder/training-graph.png)
+![Training Graph](docs/regression_line.png)
 
 ---
 
@@ -114,10 +115,9 @@ Below is an example of the model’s accuracy and loss progression during traini
 
 ## 🧑‍💻 Author
 
-**[Your Name]**  
+**[Denys]**  
 🌍 Passionate about AI, healthcare, and computer vision.  
-📫 Reach me at: [your.email@example.com]  
-💼 GitHub: [your-github-profile]  
+📫 Reach me at: [denys.zakharov.work@gmail.com]  
 
 ---
 
